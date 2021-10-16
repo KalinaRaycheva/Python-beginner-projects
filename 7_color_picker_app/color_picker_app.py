@@ -6,7 +6,7 @@ def slider(value):
     g = green_Scale.get()
     b = blue_Scale.get()
 
-    rgb = f'{r},{g}.{b}'
+    rgb = f'{r},{g},{b}'
 
     code = "#%02x%02x%02x" % (r, g, b)
     colorLabel.config(bg=code)

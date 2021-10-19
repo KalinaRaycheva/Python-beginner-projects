@@ -33,6 +33,7 @@ def start1():
             while True:
                 if last == 20:
                     lose1()
+                    
                 else:
                     print("\nYour Turn.")
                     print("\nHow many numbers do you wish to enter?")

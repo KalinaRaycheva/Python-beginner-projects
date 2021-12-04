@@ -66,5 +66,4 @@ format_combo['value']=file_formats
 format_combo.current(0)
 format_combo.grid(row=1,column=1,padx=15,pady=15)
 
-
 root.mainloop()

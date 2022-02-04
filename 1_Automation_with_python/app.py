@@ -23,4 +23,3 @@ def process_workbook(filename):
     sheet.add_chart(chart, 'e2')
 
     wb.save(filename)
-    
